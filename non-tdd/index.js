@@ -15,7 +15,6 @@ async function getUnder24DetailsAndProcess () {
   const userData = await firstResponse.json();
 
   let filteredData = userData.filter((user) => {
-    /* could change this so that the age is actually a dob and we need to do a check here (this would be an example of test to extract) */
     if (user.age <= 24) {
       return true;
     } else {
