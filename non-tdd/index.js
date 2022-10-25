@@ -1,17 +1,6 @@
 import fetch from "node-fetch";
 
 
-// interface viewingDetails {
-//   programsWatched: programWatched[];
-// }
-
-// interface programWatched {
-//   programName: string;
-//   programId: string;
-//   dateWatched: number; // timestamp
-// }
-
-
 async function getUnder24DetailsAndProcess () {
 
   const firstResponse = await fetch('https://some-bbc-api.com/users');
