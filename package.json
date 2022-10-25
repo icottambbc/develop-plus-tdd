@@ -1,0 +1,10 @@
+{
+  "name": "develop-plus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "icottambbc <ian.cottam@bbc.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
